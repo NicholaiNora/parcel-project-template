@@ -1,11 +1,8 @@
 .our-products {
-    display: flex;
-    flex-direction: column;
     width: 1136px;
-    height: 442px;
-    align-items: center;
-    gap: 50px;
+    // height: 442px;
     margin: 0 auto;
+    padding: 120px 32px;
 }
 
 .products-title {
@@ -22,21 +19,15 @@
     
 }
 
-
 .span-heading {
 
     color: #fd9222;
 }
 
-.products-list {
-    display: flex;
-    gap: 18px;
-}
-
-.products-list-item {
+.products-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    gap: 50px;
     justify-content: center;
     align-items: center;
 }
