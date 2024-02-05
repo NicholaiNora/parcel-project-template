@@ -1,12 +1,11 @@
 .our-products {
     width: 1136px;
-    // height: 442px;
     margin: 0 auto;
     padding: 72px 0;
 }
 
 
-.products-title {
+.products-heading {
     color: #111111;
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
@@ -18,7 +17,6 @@
 }
 
 .span-heading {
-
     color: #fd9222;
 }
 
@@ -97,10 +95,21 @@ li.swiper-slide  {
     margin: 0;
     padding: 0;
     flex-shrink: 1;
+    gap: 18px;
+    width: 270px;
 }
 
 .swiper {
     width: 100%;
     height: 100%;
-  }
+}
+
+.swiper.mySlider {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+}
 
