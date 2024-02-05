@@ -129,3 +129,78 @@ iframe {
   border: 0;
   cursor: pointer;
 }
+/*tablet*/
+
+@media screen and (max-width: 768px) {
+  .how-its-made-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+  }
+
+  .how-its-made-content-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .how-its-made-list {
+    width: 100%;
+  }
+
+  .how-its-made-video {
+    order: -1;
+    height: auto;
+    border-radius: 0;
+  }
+
+  .how-its-made-icon {
+    position: static;
+    left: auto;
+    top: auto;
+    margin-top: 20px;
+  }
+
+  .how-its-made-heading {
+    text-align: center;
+  }
+}
+
+/*mobile*/
+@media screen and (max-width: 375px) {
+  .how-its-made-heading {
+    font-size: 20px;
+  }
+
+  .how-its-made-list {
+    gap: 12px;
+  }
+
+  .how-its-made-video {
+    width: 100%;
+    height: auto;
+    border-radius: 0;
+  }
+
+  .how-its-made-paragraph,
+  .how-its-made-list {
+    width: 100%;
+  }
+
+  .how-its-made-icon {
+    position: static;
+    left: auto;
+    top: auto;
+    margin-top: 10px;
+  }
+
+  .how-its-made-item {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .how-its-made-heading {
+    text-align: center;
+  }
+}
