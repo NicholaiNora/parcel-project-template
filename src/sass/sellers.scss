@@ -132,14 +132,23 @@
   .sellers-container {
     display: flex;
     width: 335px;
-    height: 1187px;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    margin: 0 auto;
+  }
+  .sellers-modal {
+    width: 311px;
   }
 
+  .sellers-mobile-container {
+    display: flex;
+    flex-direction: column;
+    width: 335px;
+    margin: 0 auto;
+  }
   .sellers-heading {
-    margin-bottom: 0;
+    margin-bottom: 32px;
     color: #111;
     font-family: Montserrat;
     font-size: 20px;
